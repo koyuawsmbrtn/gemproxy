@@ -1,18 +1,18 @@
 {
   "name": "gemproxy",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^6.1.6",
-    "@testing-library/react": "^14.1.2",
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/react": "^14.3.1",
     "@testing-library/user-event": "^14.5.2",
-    "gemini-to-html": "^2.1.0",
+    "gemini-to-html": "^2.2.0",
     "jquery": "^3.7.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-scripts": "^5.0.1",
     "twemoji": "^14.0.2",
-    "web-vitals": "^3.5.1"
+    "web-vitals": "^3.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,5 +36,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "trustedDependencies": [
+    "core-js",
+    "core-js-pure"
+  ]
 }
