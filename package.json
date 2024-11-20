@@ -6,12 +6,12 @@
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^14.3.1",
     "@testing-library/user-event": "^14.5.2",
+    "@twemoji/api": "^15.1.0",
     "gemini-to-html": "^2.2.0",
     "jquery": "^3.7.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "^5.0.1",
-    "twemoji": "^14.0.2",
     "web-vitals": "^3.5.2"
   },
   "scripts": {
